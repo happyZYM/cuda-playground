@@ -12,7 +12,7 @@ BASIC_SRC = csrc/basic.cu
 GEMM = build/gemm
 GEMM_SRC = csrc/gemm.cu
 
-all: $(HELLO) $(BASIC)
+all: $(HELLO) $(BASIC) $(GEMM)
 
 $(HELLO): $(HELLO_SRC)
 	mkdir -p build
